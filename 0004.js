@@ -4,7 +4,7 @@ function sayhello71() {
   
 
 function imgchange12() {
-  document.getElementById('logo').src = './image/789.png';
+  document.getElementById('logo').src = './image/456.png';
 }
 
 
