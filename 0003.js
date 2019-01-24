@@ -1,4 +1,4 @@
-function name123(){
-alert('hello,' +
-      document.getElementById('login1').value+'!')
+function sayhello71(){
+alert('Hello,' + 
+document.getElementById('who71').value + '!');
 }
