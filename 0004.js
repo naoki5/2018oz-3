@@ -1,9 +1,9 @@
-function sayhello71() { 
+function imc125() { 
 //関数imgchange1()を3000ミリ秒間隔で呼び出す 
   setInterval("imgchange12()",3000); } 
   
 
-function imgchange12() {
+function imc125() {
   document.getElementById('logo').src = './image/456.png';
 }
 
