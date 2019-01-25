@@ -1,5 +1,5 @@
 function add(){
   var x =document.getElementById('old125').value;
-  alert(Number(2018)-Number(x));
+  alert("あなたの生年月日"+Number(2019)-Number(x));
   
 }
