@@ -1,0 +1,1 @@
+﻿setInterval("text.style.opacity^=1",1000) //1000ms毎に切り替え

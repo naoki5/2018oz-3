@@ -3,31 +3,50 @@
 <head>
 <meta charset="UTF-8">
 <title>情報学特講Ⅱ最終プロジェクト</title>
+   <link rel="stylesheet"href="me.css">
   <script src="0001.js"></script>
   <script src="0002.js"></script>
   <script src="0003.js"></script>
   <script src="0004.js"></script>
   <script src="0005.js"></script>
+　<script src="0006.js"></script>
+　<script src="0007.js"></script>
+
   </head>
   <body>
-    <img src='./image/inu.jpg' id="logo2" alt="Josai Logo">
+<h1>ZM17160 小沢直輝</h1>
+     <p class="sample2"><img src='./image/inu.jpg' id="logo2" alt="Josai Logo" onclick="ThreeSecChange();"></p>
+ <span id="text2">↑↑＜画像をクリック!＞３秒後に画像が変更されます↑↑</span><br>
   <br>
+<p class="sample3">過去のプロジェクト：
   <a href="https://naoki5.github.io/2018oz/"> <input type="button" value="2018oz"></a>
     <a href="https://naoki5.github.io/2018oz-2/"> <input type="button" value="2018oz-2"></a>
-    <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
+   </p>
   
-  <br>
- 
-  <h1>
-  テキスト入力の練習7-1</h1>
-  <input type="button" value="あいさつ" onclick="sayhello71();">
+  <br><br>
+
+<strong><span id="text">
+↓↓名前を入力後”あいさつ”ボタンをクリック!↓↓
+</span></strong><br>
+   <p class="sample1">
+  名前：<input type="text"id="who71"> <input type="button" value="あいさつ" onclick="sayhello71();"></p>
+<p class="sample4">
+   生年月日：<input type ="text" id="old1">年<input type="button"value=クリック！ onclick="add()">
+    </p>
+
+<h3>５秒後にお知らせします！</h3>
+<p><form>
+  <input type="button" value="タイマー５秒"
+         onclick="setTimeout('mes()',5000)"></p>
+<h1>
+  ボスマス指数
+</h1>
 <p>
-  名前：<input type="text"id="who71"></p>
-  <br>
-  <p>
-   生年月日：<input type ="text" id="old1">年
-    <input type="button"value=クリック！ onclick="add()">
-    </p>  
+身長：<input type="text" id="both1">(ｃｍ)
+体重：<input type="text" id="both2">(ｋｇ)
+<input type="button" value="計算" onclick="abc2();"></p>
+
 <p id="RealtimeClockArea2">※ここに時計(2桁固定版)が表示されます。</p>
+  
   </body>
 </html>
