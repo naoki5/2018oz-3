@@ -1,5 +1,5 @@
 function add(){
-  var x =document.getElementById('old1').value;
-  var y ='今年で'
-alert((y)+Number(2019)-Number(x)+'才ですか？');
+var x = 2019
+var y = document.getElementById('old1').value;
+alert('今年で'+ (Number(x)-Number(y))+'才ですか？');
 }
